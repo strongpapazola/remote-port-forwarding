@@ -52,9 +52,9 @@ def main():
     ssh -R 4000:internal.example.com:80 public.example.com
     """
     ssh_host = 'msib.bisaai.id'
-    ssh_port = 1022
+    ssh_port = 22
     ssh_user = 'root'
-    ssh_pass = 'B1s4411d'
+    ssh_pass = '12345'
     remote_bind_port = 222  # port on server to forward
     forward_host = '0.0.0.0'  # dest host to forward to
     forward_port = 22  # dest port to forward to
