@@ -1,0 +1,11 @@
+[Unit]
+Description=remote port forwarding service
+
+[Service]
+Restart=on-failure
+RestartSec=5s
+User=root
+ExecStart=/usr/bin/python3 /home/pi/remote-port-forwarding/rforward.py
+
+[Install]
+WantedBy=multi-user.target

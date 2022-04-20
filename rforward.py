@@ -55,7 +55,7 @@ def main():
     ssh_port = 1022
     ssh_user = 'root'
     ssh_pass = 'B1s4411d'
-    remote_bind_port = 1234  # port on server to forward
+    remote_bind_port = 222  # port on server to forward
     forward_host = '0.0.0.0'  # dest host to forward to
     forward_port = 22  # dest port to forward to
 
